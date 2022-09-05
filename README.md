@@ -6,3 +6,6 @@
 
 Скрипт удаления таблиц:
  [link text](drop.sql)
+
+Скрипт дополнительного задания:
+ [link text](create_db_no3.sql)
