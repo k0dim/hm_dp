@@ -1,5 +1,5 @@
 --дропнуть схему
-drop schema traks.album;
+drop schema traks;
 
 --дропнуть таблицу
 drop table traks.album;
