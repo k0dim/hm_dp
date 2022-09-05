@@ -1,3 +1,5 @@
+/* Создание схемы */
+CREATE SCHEMA traks
 
 /* Таблица "Треки" */
 create table traks.track(
