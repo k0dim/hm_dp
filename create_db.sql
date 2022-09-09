@@ -1,3 +1,5 @@
+create schema track;
+
 /* Таблица "Треки" */
 create table traks.track(
 	track_id serial primary key, /* Первичный ключ */
