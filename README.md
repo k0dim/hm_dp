@@ -15,4 +15,4 @@
   [insert.sql](insert.sql)
 
  ###  Скрипт SELECT:
-  [select.sql)](select.sql)
+  [select.sql](select.sql)
