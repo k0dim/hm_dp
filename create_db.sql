@@ -2,14 +2,14 @@
 create table traks.track(
 	track_id serial primary key, /* Первичный ключ */
 	name_track varchar(100) not null, /* Наименование трека */
-	duration int not null, /* Продолжительность в минутах */
-	compilation_id int REFERENCES traks.compilation(compilation_id), /* Ключ из таблицы "Сборник" */
+	duration float4 not null, /* Продолжительность в минутах */
 	album_id int REFERENCES traks.album(album_id) /* Ключ из таблицы "Альбом" */
 );
 
 /* Таблица "Сборник" */
 create table traks.compilation(
 	compilation_id serial primary key, /* Первичный ключ */
+	name_compilation varchar(100) not null, /* Наименование альбома */
 	com_release_date date not null /* Дата выхода сборника */
 );
 
@@ -23,7 +23,7 @@ create table traks.album(
 /* Таблица "Автор" */
 create table traks.author(
 	author_id serial primary key, /* Первичный ключ */
-	name_author varchar(100) not null /* Наименование авторов */
+	name_track varchar(100) not null /* Наименование авторов */
 );
 
 /* Таблица связи авторов и альбомов */
