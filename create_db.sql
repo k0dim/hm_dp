@@ -23,7 +23,7 @@ create table traks.album(
 /* Таблица "Автор" */
 create table traks.author(
 	author_id serial primary key, /* Первичный ключ */
-	name_track varchar(100) not null /* Наименование авторов */
+	name_author varchar(100) not null /* Наименование авторов */
 );
 
 /* Таблица связи авторов и альбомов */
