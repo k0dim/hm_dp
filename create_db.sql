@@ -1,6 +1,3 @@
-/* Создание схемы */
-CREATE SCHEMA traks
-
 /* Таблица "Треки" */
 create table traks.track(
 	track_id serial primary key, /* Первичный ключ */
@@ -47,4 +44,11 @@ create table traks.auth_genr(
 	auth_genr_id serial primary key, /* Первичный ключ */
 	author_id INTEGER NOT NULL REFERENCES traks.author(author_id), /* Идентификатор авторов */
 	genre_id INTEGER NOT NULL REFERENCES traks.genre(genre_id) /* Идентификатор альбомов */
+);
+
+/* Таблица связи треков и сборников */
+create table traks.track_comp(
+	track_comp_id serial primary key, /* Первичный ключ */
+	track_id INTEGER NOT NULL REFERENCES traks.author(author_id), /* Идентификатор авторов */
+	compilation_id INTEGER NOT NULL REFERENCES traks.genre(genre_id) /* Идентификатор альбомов */
 );
