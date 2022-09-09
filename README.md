@@ -4,15 +4,15 @@
 ## Задание №1: Создание таблицы
 
 ### Скрипт создания таблиц:
- [link text](create_db.sql)
+ [create_db.sql](create_db.sql)
 
 ### Скрипт дополнительного задания:
- [link text](create_db_no3.sql)
+ [Сcreate_db_no3.sql](create_db_no3.sql)
 
  ## Задание №2: Заполнение таблицы, SELECT - запросы
 
  ###  Скрипт заполнения таблицы:
-  [link text](insert.sql)
+  [insert.sql](insert.sql)
 
  ###  Скрипт SELECT:
-  [link text](select.sql)
+  [select.sql)](select.sql)
