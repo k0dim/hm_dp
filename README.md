@@ -1,5 +1,5 @@
 # Схема БД:
-! [Screenshot](db-traks.png)
+[Screenshot](db-traks.png)
 
  ## Задание №1: Работа с PostgreSQL. Создание БД
 
