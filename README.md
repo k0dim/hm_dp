@@ -1,5 +1,6 @@
 # Схема БД:
-[Screenshot](db-traks.png)
+![Screenshot][db-traks.png]
+
 
  ## Задание №1: Работа с PostgreSQL. Создание БД
 
@@ -23,4 +24,4 @@
   [select_2.sql](select_2.sql)
 
   ###  Скрипт заполнения таблицы (Измененный):
-  [insert.sql](insert.sql)
+  [insert_2.sql](insert_2.sql)
